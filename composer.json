@@ -16,7 +16,7 @@
   "require": {
     "php": ">=7.0",
     "psr/log": "^1.0",
-    "juhniorsantos/record-processor": "^0.9",
+    "juhniorsantos/record-processor": "^0.10",
     "illuminate/support": "^5.4|^6.0|^7.0",
     "illuminate/contracts": "^5.4|^6.0|^7.0",
     "illuminate/database": "^5.4|^6.0|^7.0",
