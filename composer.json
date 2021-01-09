@@ -22,6 +22,21 @@
     "illuminate/database": "^5.4|^6.0|^7.0",
     "illuminate/http": "^5.4|^6.0|^7.0"
   },
+  "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "juhniorsantos/record-processor",
+                "version": "0.9.0",
+                "type": "svn",
+                "source": {
+                    "url": "https://github.com/juhniorsantos/record-processor.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
   "autoload": {
     "psr-4": {
       "RodrigoPedra\\LaravelRecordProcessor\\": "src/LaravelRecordProcessor/",
